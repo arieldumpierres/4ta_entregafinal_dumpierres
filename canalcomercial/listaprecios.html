@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aca podes armar tu pedido y conocer nuestros precios">
+    <meta name="keywords" content="Bakery, pasteleria, cumpleaños, eventos, tortas, muffins, tartas,pagos, tajetas">
+    <link rel="stylesheet" href="http://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <title>Lista de Precios</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/destino.css">
+</head>
+
+<body>
+    <header>
+       <p class="fontlogo animatitulo"> <a href="/index.html">Fresca Armonia</a>
+       </p>
+       
+       
+    </header>
+    <hr>
+    <nav > 
+        <ul class="ulmenu">
+            <li class="limenu"><a href="/nosotros/sobrenosotros.html">Nuestra Compañía</a></li>
+            <li class="limenu ul-li"><a href="/productos/productosgrid/productosgrid.html">Productos</a>
+                <ul class="ul-ul">
+                    <li class="ul-ul-li"><a href="/productos/productos.html">Tortas</a></li>
+                    <li class="ul-ul-li"><a href="/productos/productos.html">Tartas</a></li>
+                    <li class="ul-ul-li" ><a href="/productos/productos.html">Puddins</a></li>
+                    <li class="ul-ul-li"><a href="/productos/productos.html">Cupcakes</a></li>
+                    <li class="ul-ul-li"><a href="/productos/productos.html">Desayunos</a></li>
+                
+                </ul>
+                </li>
+            <li class="limenu"><a href="/canalcomercial/listaprecios.html">Canal Comercial</a></li>
+            <li class="limenu"><a href="/contacto/contacto.html">Contacto</a></li>  
+        </ul>
+    </nav>
+    <main>
+    <div class="divmargencomprar" >
+        <h1 class="textogrande textosubrayado centrar">Cómo Comprar desde nuestro sitio web</h1>
+            <section >
+                <ol class="fontamatic interlineado centrar" >
+                    <li> Iniciá tu sesión o Registrate en nuestra página web</li>
+                    <li> Dirigite a nuestro canal comercial</li>
+                    <li> Selecciona el o los productos que desees comprar</li>
+                    <li> Una vez terminada tu compra dirigite al carrito de compras para completar la compra</li>
+                    <li>Listo! alli podes seleccionar el medio de pago y metodo de envío</li>
+                    <li>A disfrutar de nuestros productos!</li>
+                </ol>
+             </section>
+    </div>
+    <hr>
+    <p class="fontamatic">Lista de precios</p>
+    <table class="table fontamatic">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Producto</th>
+            <th scope="col">Variedad</th>
+            <th scope="col">Precio</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Torta</td>
+            <td>de Cumpleaños</td>
+            <td>$900</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Torta</td>
+            <td>Cubierta</td>
+            <td>$900</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Tarta</td>
+            <td>Grande</td>
+            <td>$800</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>Muffins</td>
+            <td>rellenos</td>
+            <td>$150</td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>Bandeja Desayuno</td>
+            <td>Grande</td>
+            <td>$1500</td>
+          </tr>
+        </tbody>
+      </table>
+    <hr>
+    <form class="row g-3">
+        <div class="col-auto">
+          <label for="staticEmail2" class="visually-hidden">Email</label>
+          <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="email@example.com">
+        </div>
+        <div class="col-auto">
+          <label for="inputPassword2" class="visually-hidden">Password</label>
+          <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+        </div>
+        <div class="col-auto">
+          <button type="submit" class="btn btn-primary mb-3">Confirma tu Identidad</button>
+        </div>
+      </form>
+    <hr>
+
+    <div class="divmargencomprar container-fluid">
+    <section class="container-fluid">
+        
+        <table class="container-fluid fontamatic" cellspacing="5" cellpadding="10" border="1" style="color: rgb(64, 15, 180);>
+            <caption class="fontamatic textosubrayado">Lista de Precios</caption>
+            <tr>
+                <th>Producto</th>
+                <th>Precio unitario</th>
+                <th>Seleccione cantidad</th>
+                <th>Agregar al Carrito</th>
+            </tr>
+        <tr>
+            <td>Torta de Cumpleaños</td>
+            <td>$900</td>
+             <td><select name="cantidad">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="6">6</option>
+                <option value="12">12</option>
+              </select>
+            </td>
+            <td><input type="radio" name="carrito" value="agregar"/></td>
+            
+        </tr>
+        <tr>
+            <td>Tartas</td>
+            <td>$750</td>
+             <td><select name="cantidad">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="6">6</option>
+                <option value="12">12</option>
+              </select>
+            </td>
+            <td><input type="radio" name="carrito" value="agregar"/></td>
+            
+        </tr>
+        <tr>
+            <td>Tortas</td>
+            <td>$800</td>
+             <td><select name="cantidad">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="6">6</option>
+                <option value="12">12</option>
+              </select>
+            </td>
+            <td><input type="radio" name="carrito" value="agregar"/></td>
+            
+        </tr>
+        <tr>
+            <td>Muffins</td>
+            <td>$120</td>
+             <td><select name="cantidad">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="6">6</option>
+                <option value="12">12</option>
+              </select>
+            </td>
+            <td><input type="radio" name="carrito" value="agregar"/></td>
+            <tr>
+                <td>Puddins</td>
+                <td>$780</td>
+                 <td><select name="cantidad">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="6">6</option>
+                    <option value="12">12</option>
+                  </select>
+                </td>
+                <td><input type="radio" name="carrito" value="agregar"/></td>
+                <tr>
+                    <td>Box Desayuno</td>
+                    <td>$1300</td>
+                     <td><select name="cantidad">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="6">6</option>
+                        <option value="12">12</option>
+                      </select>
+                    </td>
+                    <td><input type="radio" name="carrito" value="agregar"/></td>
+                    
+                </tr>
+            </tr>
+        </tr>
+
+        </table>
+        
+        
+    </section>
+</div>
+<hr>
+
+</main>
+<footer>
+    <section class="flexpiedepagina">
+    
+     <div class="piedepag ">
+             <h3>REDES SOCIALES</h3>
+                 <ul class="flexpiedepagina">
+                     <li><i class="fab fa-facebook-square"></i> </li>
+                     <li><i class="fab fa-twitter-square"></i></li>
+                     <li><i class="fab fa-instagram"></i></li>
+                 </ul>
+     </div>
+
+     <div class="piedepag">
+             <h3>MEDIOS DE PAGOS</h3>
+             <ul class="flexpiedepagina">
+                <li><i class="fab fa-cc-visa"></i></li>
+                <li><i class="fas fa-money-bill-alt"></i></li>
+                <li><i class="fab fa-cc-amex"></i></li>
+            </ul>
+     </div>
+
+     <div class="piedepag">
+         <h3>CONTACTANOS</h3>
+         <ul class="flexpiedepagina">
+            <li><i class="fab fa-whatsapp-square"></i></li>
+            <li><i class="fas fa-at"></i></li>
+            <li><i class="fas fa-phone-square"></i></li>
+        </ul>
+     </div>
+
+     <div class="piedepag">
+        <p class="fontlogopie flexpiedepagina">Fresca Armonia</p>
+            
+     </div>
+
+    </section>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+</body>
+</html>
